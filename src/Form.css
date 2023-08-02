@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.name {
+    margin: 10px;
+    padding: 10px;
+    border-radius: .6em;
+    border-color: coral;
+    border-width: 3px;
+}
+
+.name:focus {
+    outline: none !important;
+    border-color: brown;
+
+
+}
+
+.taskContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.time {
+    display: grid;
+    margin: 10px;
+    border-width: 1px;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.task {
+    display: grid;
+    margin: 10px
+}
+
+.coment {
+    display: grid;
+    margin: 10px;
+}
+
+.completeButton {
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.completeButton>button {
+    padding: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: greenyellow;
+    border-radius: .6em;
+    border: none;
+}
+
+.completeButton>button:hover {
+    background-color: green;
+}
+
+.choice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.choice>li {
+    margin: 30px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: .25rem;
+
+}
+
+.choice>li:hover {
+
+    background-color: rgb(187, 255, 0);
+
+
+}
